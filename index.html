@@ -17,6 +17,16 @@
     <title>🎃 Awesome React Halloween & Horror Games</title>
 </head>
 <body>
+    <!--=============== AUDIO ELEMENTS ===============-->
+    <audio id="background-music" loop autoplay>
+        <source src="https://assets.mixkit.co/music/671/671.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="hover-sound">
+        <source src="https://assets.mixkit.co/active_storage/sfx/2462/2462-preview.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="click-sound">
+        <source src="https://assets.mixkit.co/active_storage/sfx/2467/2467-preview.mp3" type="audio/mpeg">
+    </audio>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
@@ -42,6 +52,10 @@
                     <li class="nav__item">
                         <a href="#apps" class="nav__link">Apps</a>
                     </li>
+
+                    <button id="music-toggle" class="button button--ghost music-btn" title="Toggle Music">
+                        <i class='bx bx-volume-full' id="music-icon"></i>
+                    </button>
 
                     <a href="https://github.com/BrandeisPatrick/awesome-react-game-halloween" target="_blank" class="button button--ghost">
                         <i class='bx bxl-github'></i> GitHub
@@ -96,7 +110,7 @@
 
         <!--==================== HORROR & SURVIVAL GAMES ====================-->
         <section class="section trick" id="horror">
-            <h2 class="section__title">🧟 Horror & Survival Games</h2>
+            <h2 class="section__title">🧟 Horror</h2>
 
             <div class="trick__container container grid" id="horror-games">
                 <!-- Games will be loaded dynamically by JavaScript -->
@@ -105,7 +119,7 @@
 
         <!--==================== ESCAPE & MYSTERY GAMES ====================-->
         <section class="section trick" id="escape">
-            <h2 class="section__title">🔐 Escape & Mystery Games</h2>
+            <h2 class="section__title">🔐 Escape</h2>
 
             <div class="trick__container container grid" id="escape-games">
                 <!-- Games will be loaded dynamically by JavaScript -->

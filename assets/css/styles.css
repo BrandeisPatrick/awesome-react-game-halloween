@@ -388,6 +388,32 @@ button{
   column-gap: .5rem;
 }
 
+/*=============== MUSIC BUTTON ===============*/
+.music-btn {
+  cursor: pointer;
+  transition: transform 0.3s, color 0.3s;
+  margin-right: 0.5rem;
+  padding: .75rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.music-btn:hover {
+  transform: scale(1.1);
+}
+
+.music-btn i {
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.music-btn:active {
+  transform: scale(0.95);
+}
+
 /*=============== CATEGORY ===============*/
 .category__container{
   grid-template-columns: repeat(2, 1fr);
@@ -777,6 +803,53 @@ button{
     grid-template-columns: .8fr;
     justify-content: center;
   }
+
+  /* Small screen header fixes */
+  .nav__link{
+    font-size: 0.75rem;
+  }
+
+  .nav__logo{
+    font-size: 0.85rem;
+  }
+
+  .button--ghost{
+    padding: .5rem .8rem;
+    border-width: 1.5px;
+    font-size: 0.75rem;
+  }
+
+  .music-btn{
+    padding: .5rem .6rem;
+  }
+
+  .music-btn i{
+    font-size: 1rem;
+  }
+}
+
+/* For screens 321px to 575px */
+@media screen and (min-width: 321px) and (max-width: 575px){
+  .nav__link{
+    font-size: 0.8rem;
+  }
+
+  .nav__logo{
+    font-size: 0.9rem;
+  }
+
+  .button--ghost{
+    padding: .55rem .9rem;
+    font-size: 0.8rem;
+  }
+
+  .music-btn{
+    padding: .55rem .7rem;
+  }
+
+  .music-btn i{
+    font-size: 1.05rem;
+  }
 }
 
 /* For medium devices */
@@ -793,6 +866,32 @@ button{
   }
   .newsletter__description{
     padding: 0 3rem;
+  }
+
+  /* Medium screen header adjustments */
+  .nav__link{
+    font-size: 0.85rem;
+  }
+
+  .nav__logo{
+    font-size: 0.95rem;
+  }
+
+  .button--ghost{
+    padding: .6rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .music-btn{
+    padding: .6rem .75rem;
+  }
+
+  .music-btn i{
+    font-size: 1.1rem;
+  }
+
+  .nav__list{
+    column-gap: 1.5rem;
   }
 }
 

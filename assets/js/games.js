@@ -1,14 +1,6 @@
 // Game data from the awesome list
 const horrorGames = [
     {
-        name: "Skull Hotel",
-        github: "https://github.com/JamesHall38/skullhotel.io",
-        demo: "https://skullhotel.vercel.app",
-        stars: 16,
-        description: "R3F horror survival game. Play as housekeeper cleaning 8 hotel rooms with deadly entities hiding in random spots.",
-        image: "assets/img/trick-treat1-img.png"
-    },
-    {
         name: "Thistle",
         github: "https://github.com/georgewaraw/thistle",
         demo: "https://georgewaraw.github.io/thistle/",
@@ -17,12 +9,28 @@ const horrorGames = [
         image: "assets/img/trick-treat2-img.png"
     },
     {
-        name: "2D Zombie Survival IO",
-        github: "https://github.com/TomYeoman/2d-zombie-survival-io-demo",
-        demo: null,
-        stars: 7,
-        description: "Multiplayer zombie survival IO game with cooperative gameplay",
-        image: "assets/img/trick-treat3-img.png"
+        name: "The Curse of the Pumpkin",
+        github: "https://github.com/wesleybertipaglia/course-of-pumpking",
+        demo: "https://course-of-pumpkin.vercel.app/",
+        stars: "-",
+        description: "Halloween adventure game with pumpkin-themed challenges and spooky gameplay",
+        image: "assets/img/trick-treat4-img.png"
+    },
+    {
+        name: "Crazy Pumpkin",
+        github: "https://github.com/Snokke/crazy-pumpkin",
+        demo: "https://crazy-pumpkin.andriibabintsev.com",
+        stars: "-",
+        description: "Interactive 3D Halloween experience with creative pumpkin mechanics",
+        image: "assets/img/trick-treat5-img.png"
+    },
+    {
+        name: "Skull Hotel",
+        github: "https://github.com/JamesHall38/skullhotel.io",
+        demo: "https://skullhotel.vercel.app",
+        stars: 16,
+        description: "R3F horror survival game. Play as housekeeper cleaning 8 hotel rooms with deadly entities hiding in random spots.",
+        image: "assets/img/trick-treat1-img.png"
     }
 ];
 
@@ -60,20 +68,12 @@ const escapeGames = [
         image: "assets/img/new4-img.png"
     },
     {
-        name: "React Online Escape Game",
-        github: "https://github.com/YsarocK/react-based-online-escape-game",
-        demo: null,
+        name: "Halloween CYOA Game",
+        github: "https://github.com/coreyja/halloween-game",
+        demo: "https://halloween.coreyja.com",
         stars: "-",
-        description: "Online escape game for ESD Bordeaux",
-        image: "assets/img/new5-img.png"
-    },
-    {
-        name: "Escape Room",
-        github: "https://github.com/DeirdreHegarty/escape-room",
-        demo: null,
-        stars: "-",
-        description: "Horror-themed puzzle game for Firefox",
-        image: "assets/img/new6-img.png"
+        description: "Choose Your Own Adventure style Halloween game with interactive storytelling and multiple paths",
+        image: "assets/img/home1-img.png"
     },
     {
         name: "Escape Game React",
@@ -87,12 +87,20 @@ const escapeGames = [
 
 const halloweenApps = [
     {
-        name: "Thriller",
-        github: "https://github.com/cooptothe/Thriller",
-        demo: null,
+        name: "The Halloween Quiz",
+        github: "https://github.com/LauraLyckholm/The-Halloween-Quiz",
+        demo: "https://the-halloween-quiz.netlify.app/",
         stars: "-",
-        description: "Horror movie app for browsing films. Features trending, upcoming, and top-rated horror movies",
-        image: "assets/img/trick-treat5-img.png"
+        description: "Interactive Halloween trivia quiz with spooky questions and themed design",
+        image: "assets/img/about-img.png"
+    },
+    {
+        name: "Spooky Potion Shop",
+        github: "https://github.com/danielledonnelly/spooky-potion-shop",
+        demo: "https://danielledonnelly.github.io/spooky-potion-shop/",
+        stars: "-",
+        description: "Halloween-themed potion crafting and shop management game",
+        image: "assets/img/nav-img.png"
     }
 ];
 
@@ -106,7 +114,7 @@ function createGameCard(game) {
             <p class="trick__description">${game.description}</p>
             <div class="trick__buttons">
                 ${game.demo ? `<a href="${game.demo}" target="_blank" class="button trick__button">
-                    <i class='bx bx-play'></i> Play Now
+                    <i class='bx bx-play'></i> Play
                 </a>` : ''}
                 <a href="${game.github}" target="_blank" class="button button--ghost trick__button">
                     <i class='bx bxl-github'></i>

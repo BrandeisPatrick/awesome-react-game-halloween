@@ -1,29 +1,12 @@
-```
-    _______________
-   /               \
-  /  👻 AWESOME 👻  \
- /   REACT GAMES    \
-|   🎃 HALLOWEEN 🎃  |
- \    & HORROR 🕷️   /
-  \_________________/
-        ||  ||
-        ||  ||
-       _||__||_
-```
-
 # 🎃 Awesome React Halloween & Horror Games [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > 👻 A curated list of Halloween and horror-themed web games built with React 🕸️
->
-> *Enter if you dare... these React games will give you a fright!* 🦇
 
 ## 📖 Contents
 
 - [🧟 Horror & Survival Games](#-horror--survival-games)
 - [🔐 Escape & Mystery Games](#-escape--mystery-games)
-- [🎨 Halloween Components & Libraries](#-halloween-components--libraries)
 - [📱 Halloween-Themed Apps](#-halloween-themed-apps)
-- [🛠️ Game Development Resources](#️-game-development-resources)
 - [🤝 Contributing](#-contributing)
 - [📜 License](#-license)
 
@@ -31,144 +14,58 @@
 
 ## 🧟 Horror & Survival Games
 
-### 3D Horror Games
-
-- **[Thistle](https://github.com/georgewaraw/thistle)** - A 3D horror FPS concept built with react-three-fiber. Features old-school PSX/Saturn aesthetic with low-res textures and retro visuals. You're chased by a ghost through an abandoned city.
-  - ⭐ Stars: Low
-  - 🎮 [Play Demo](https://georgewaraw.github.io/thistle/)
-  - 🎥 [Gameplay Video](https://youtu.be/2jMmznMro2E)
-  - 🛠️ Tech: React, react-three-fiber, Three.js
-  - 📱 Playable on desktop and mobile
-
-### 2D Survival Games
-
-- **[2D Zombie Survival IO Demo](https://github.com/TomYeoman/2d-zombie-survival-io-demo)** - Multiplayer zombie survival game demonstrating how to build an IO game. Survive against increasing horde sizes with cooperative gameplay.
-  - ⭐ Stars: 7
-  - 🛠️ Tech: React, Redux, TypeScript, Phaser, nengi.js, Node.js, Tailwind CSS
-  - 🎯 Features: Authoritative server, tilemap support, collision detection, cooperative multiplayer
-  - 📝 Status: Work in progress (client-side prediction planned)
+| Name | Demo | Stars | About |
+|------|------|-------|-------|
+| [Thistle](https://github.com/georgewaraw/thistle) | [Play](https://georgewaraw.github.io/thistle/) | Low | 3D horror FPS with old-school PSX/Saturn aesthetic. Chase sequences through abandoned city. |
+| [The Curse of the Pumpkin](https://github.com/wesleybertipaglia/course-of-pumpking) | [Play](https://course-of-pumpkin.vercel.app/) | - | Halloween adventure game with pumpkin-themed challenges and spooky gameplay |
+| [Crazy Pumpkin](https://github.com/Snokke/crazy-pumpkin) | [Play](https://crazy-pumpkin.andriibabintsev.com) | - | Interactive 3D Halloween experience with creative pumpkin mechanics |
+| [Skull Hotel](https://github.com/JamesHall38/skullhotel.io) | [Play](https://skullhotel.vercel.app) | 16 | R3F horror survival game. Play as housekeeper cleaning 8 hotel rooms with deadly entities hiding in random spots. |
 
 ---
 
 ## 🔐 Escape & Mystery Games
 
-- **[React-Based Online Escape Game](https://github.com/YsarocK/react-based-online-escape-game)** - Online escape game developed with React and Firebase for ESD Bordeaux.
-  - 🛠️ Tech: React, Firebase, Vanilla JS
-  - 📝 Development time: 8 days
-
-- **[Escape Room (Horror Themed)](https://github.com/DeirdreHegarty/escape-room)** - JavaScript horror-themed puzzle game that runs in Mozilla Firefox browser.
-  - 🛠️ Tech: JavaScript, HTML, CSS
-  - 🎨 Theme: Horror/atmospheric
-
-- **[Escape Game React](https://github.com/sjapaget/escape-game-react)** - Practice project for React and Tailwind CSS by making an escape game.
-  - 🛠️ Tech: React, Tailwind CSS
-  - 🎮 [Online Demo](https://www.sjapaget.online)
-  - 📝 Status: Unfinished
-
----
-
-## 🎨 Halloween Components & Libraries
-
-- **[react-halloween](https://github.com/patorjk/react-halloween)** - Collection of Halloween-themed React components for creating spooky web experiences.
-  - ⭐ Stars: 3
-  - 🛠️ Tech: TypeScript (94.7%), Motion library
-  - 📦 Components:
-    - **DoomFireTorch** - Canvas-based fire effect
-    - **Eyes** - Interactive eyes that track cursor
-    - **Haunted** - Container spawning creatures with glow effects
-    - **LightsOut** - Darkness overlay with spotlight
-    - **MagicalText** - Animated gradient text with sparkles
-  - 📚 Storybook included
-  - 📄 License: MIT
+| Name | Demo | Stars | About |
+|------|------|-------|-------|
+| [React Roguelike](https://github.com/TimAstier/react-roguelike) | [Play](https://react-roguelike-demo.netlify.app) | 29 | Dungeon crawler with darkness mechanics. Explore procedurally generated dungeons where much of the map is hidden. Features combat, inventory, and sound effects. |
+| [FeedVid Live](https://github.com/rameshvarun/feedvid-live) | [Play](https://varunramesh.itch.io/feedvid-live) | 3 | Horror puzzle game with text-adventure gameplay. Control a livestreamer through typed commands in this React + Three.js game. |
+| [Jack-o-Hangman](https://github.com/kapppa-joe/jack-o-hangman) | [Play](https://kapppa-joe.github.io/jack-o-hangman/) | 1 | Halloween-themed word guessing game with custom graphics and jumpscare elements. Built as a React learning project. |
+| [Roguelike Dungeon Crawler](https://github.com/StefanieWang/ReactJS-Roguelike-Dungeon-Crawler) | [Play](https://codepen.io/StefanieWang/pen/EXbyrr) | - | Turn-based dungeon crawler with darkness mechanic. Battle enemies through 4 levels to defeat the final boss. |
+| [Halloween CYOA Game](https://github.com/coreyja/halloween-game) | [Play](https://halloween.coreyja.com) | - | Choose Your Own Adventure style Halloween game with interactive storytelling and multiple paths |
+| [Escape Game React](https://github.com/sjapaget/escape-game-react) | [Play](https://www.sjapaget.online) | - | Practice project for React and Tailwind |
 
 ---
 
 ## 📱 Halloween-Themed Apps
 
-- **[Thriller](https://github.com/cooptothe/Thriller)** - Halloween-themed horror movie app built with React Native.
-  - 🛠️ Tech: React Native, MovieDB API
-  - 🎬 Features: Trending, upcoming, top-rated, and classic horror movies
+| Name | Demo | Stars | About |
+|------|------|-------|-------|
+| [The Halloween Quiz](https://github.com/LauraLyckholm/The-Halloween-Quiz) | [Play](https://the-halloween-quiz.netlify.app/) | - | Interactive Halloween trivia quiz with spooky questions and themed design |
+| [Spooky Potion Shop](https://github.com/danielledonnelly/spooky-potion-shop) | [Play](https://danielledonnelly.github.io/spooky-potion-shop/) | - | Halloween-themed potion crafting and shop management game |
 
 ---
 
-## 🛠️ Game Development Resources
-
-### React Game Frameworks & Libraries
-
-**3D Game Development**
-- **[react-three-fiber](https://github.com/pmndrs/react-three-fiber)** - React renderer for Three.js, perfect for 3D horror games
-  - ⭐ Very popular
-  - 🎮 Examples: FPS games, 3D worlds, atmospheric horror
-
-**2D Game Development**
-- **[react-pixi](https://github.com/inlet/react-pixi)** - React wrapper for PixiJS, high-performance 2D rendering
-- **[react-game-engine](https://github.com/bberak/react-game-engine)** - Lightweight game engine for React
-  - 📱 React Native support available
-
-**Game Engine Integration**
-- **[react-phaser-fiber](https://github.com/mattjennings/react-phaser-fiber)** - Create Phaser 3 games using React
-- **[react-game-kit](https://github.com/FormidableLabs/react-game-kit)** - Component library for React & React Native games
-  - ⭐ Stars: 4.6k
-  - ⚠️ Note: Repository is archived
-
-### Game Development Tools
-
-- **Phaser** - Popular 2D game framework that integrates well with React
-- **PixiJS** - Fast 2D WebGL renderer
-- **Konva** - HTML5 2D canvas library with declarative API
-- **nengi.js** - Networking library for multiplayer games
-
-### Tutorials & Learning Resources
-
-- **[Game Development With React](https://reactresources.com/topics/game-development)** - Curated resources for React game development
-- **[Ready Player React](https://medium.com/@jawaragordon/ready-player-react-how-to-build-a-video-game-with-javascript-part-1-fbda59e173f5)** - Multi-part tutorial series on building video games with React
-- **[Phaser Tutorial: Survival Horror Game](https://emanueleferonato.com/2014/10/21/phaser-tutorial-how-to-create-an-html5-survival-horror-game-in-6-easy-steps/)** - Six-step tutorial for creating HTML5 survival horror games
-- **[Halloween Merge Game Tutorial](https://fernandoruizrico.com/phaser-unit-10/)** - Phaser tutorial with Halloween-themed items
-
-### Inspiration & Examples
-
-- **[GitHub Halloween Topic](https://github.com/topics/halloween)** - Browse Halloween-themed projects
-- **[GitHub Horror Game Topic](https://github.com/topics/horror-game)** - Horror game repositories
-- **[CodePen Halloween Tag](https://codepen.io/tag/halloween)** - Interactive Halloween animations and games
-- **[13 Scary Games for Halloween](https://github.blog/open-source/thirteen-short-and-scary-games-plus-source-to-play-or-hack-this-halloween/)** - GitHub Blog's collection of hackable Halloween games
+**🛠️ Want to build your own Halloween game?** Check out [RESOURCES.md](RESOURCES.md) for frameworks, tools, and tutorials!
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please read the contribution guidelines first.
-
 > 💀 Help us grow this spooky collection! 💀
 
-### Guidelines
+**Requirements:**
+- Built with React or React-based frameworks
+- Halloween or horror theme
+- Playable/functional (or marked as WIP)
+- Public source code or demo available
 
-1. **Game Requirements:**
-   - Must be built with React (or React-based frameworks like Next.js, Gatsby)
-   - Must have a Halloween or horror theme
-   - Must be playable/functional (or clearly marked as WIP)
-   - Source code or demo must be available
-
-2. **Submission Format:**
-   ```markdown
-   - **[Project Name](github-link)** - Brief description
-     - ⭐ Stars: X
-     - 🎮 [Demo Link](demo-url) (if available)
-     - 🛠️ Tech: List of technologies
-     - 🎯 Features: Key features (optional)
-   ```
-
-3. **Quality Standards:**
-   - Games should be well-documented
-   - Code should be accessible (public repository)
-   - Prefer projects with MIT or similar permissive licenses
-
-### How to Contribute
-
+**How to Contribute:**
 1. Fork this repository
-2. Add your game/resource to the appropriate category
+2. Add your entry to the appropriate table
 3. Ensure all links work
-4. Update the table of contents if adding new categories
-5. Submit a pull request
+4. Submit a pull request
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
@@ -176,26 +73,14 @@ Contributions are welcome! Please read the contribution guidelines first.
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work.
-
 ---
 
 <div align="center">
 
-### 🎃 Happy Halloween! 🎃
+🎃 **Happy Halloween!** 🎃
 
-```
-     .--.   .--.   .--.   .--.   .--.
-    /    \ /    \ /    \ /    \ /    \
-   ( 👻  ( 🎃  ( 🕷️  ( 🦇  ( 💀  )
-    \    / \    / \    / \    / \    /
-     '--'   '--'   '--'   '--'   '--'
-```
+*May your code be bug-free and your nights be spooky!*
 
-*Created with 💀 for the React community*
-
-**May your code be bug-free and your nights be spooky!**
-
-🕸️ *Last updated: October 2025* 🕸️
+👻 🕷️ 🦇 💀 🕸️
 
 </div>
