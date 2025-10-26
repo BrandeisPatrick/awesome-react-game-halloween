@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/games.css">
+
+    <title>🎃 Awesome React Halloween & Horror Games</title>
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="assets/img/logo.png" alt="" class="nav__logo-img">
+                React Halloween Games
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#horror" class="nav__link">Horror & Survival</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#escape" class="nav__link">Escape & Mystery</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#apps" class="nav__link">Apps</a>
+                    </li>
+
+                    <a href="https://github.com/BrandeisPatrick/awesome-react-game-halloween" target="_blank" class="button button--ghost">
+                        <i class='bx bxl-github'></i> GitHub
+                    </a>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <img src="assets/img/nav-img.png" alt="" class="nav__img">
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home container" id="home">
+            <div class="home__content grid">
+                <div class="home__group">
+                    <img src="assets/img/home1-img.png" alt="" class="home__img">
+                    <div class="home__indicator"></div>
+
+                    <div class="home__details-img">
+                        <h4 class="home__details-title">React Games</h4>
+                        <span class="home__details-subtitle">Spooky Collection</span>
+                    </div>
+                </div>
+
+                <div class="home__data">
+                    <h3 class="home__subtitle">🎃 Awesome React Halloween & Horror Games 👻</h3>
+                    <h1 class="home__title">DARE TO <br> PLAY? <br> IF YOU DARE...</h1>
+                    <p class="home__description">
+                        A spine-chilling collection of playable Halloween and horror-themed games built with React.
+                        Each game offers unique scares, mysteries to solve, and thrills to experience.
+                    </p>
+
+                    <div class="home__buttons">
+                        <a href="#horror" class="button">Explore Games</a>
+                        <a href="RESOURCES.md" class="button--link button--flex">
+                            Build Your Own
+                            <i class='bx bx-right-arrow-alt button__icon'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== HORROR & SURVIVAL GAMES ====================-->
+        <section class="section trick" id="horror">
+            <h2 class="section__title">🧟 Horror & Survival Games</h2>
+
+            <div class="trick__container container grid" id="horror-games">
+                <!-- Games will be loaded dynamically by JavaScript -->
+            </div>
+        </section>
+
+        <!--==================== ESCAPE & MYSTERY GAMES ====================-->
+        <section class="section trick" id="escape">
+            <h2 class="section__title">🔐 Escape & Mystery Games</h2>
+
+            <div class="trick__container container grid" id="escape-games">
+                <!-- Games will be loaded dynamically by JavaScript -->
+            </div>
+        </section>
+
+        <!--==================== HALLOWEEN APPS ====================-->
+        <section class="section trick" id="apps">
+            <h2 class="section__title">📱 Halloween-Themed Apps</h2>
+
+            <div class="trick__container container grid" id="app-games">
+                <!-- Apps will be loaded dynamically by JavaScript -->
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="section about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">Want to Build <br> Your Own?</h2>
+                    <p class="about__description">
+                        Check out our resources page for frameworks, tools, and tutorials to create your own
+                        Halloween-themed React games. From React Three Fiber to Phaser, we've curated the best
+                        resources for game development.
+                    </p>
+                    <a href="RESOURCES.md" class="button">View Resources</a>
+                </div>
+
+                <img src="assets/img/about-img.png" alt="" class="about__img">
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <img src="assets/img/logo.png" alt="" class="footer__logo-img">
+                    React Halloween Games
+                </a>
+
+                <p class="footer__description">
+                    A curated collection of awesome <br>
+                    Halloween and horror-themed <br>
+                    React games.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Quick Links</h3>
+
+                <ul class="footer__links">
+                    <li><a href="#horror" class="footer__link">Horror Games</a></li>
+                    <li><a href="#escape" class="footer__link">Mystery Games</a></li>
+                    <li><a href="#apps" class="footer__link">Halloween Apps</a></li>
+                    <li><a href="RESOURCES.md" class="footer__link">Resources</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Contribute</h3>
+
+                <ul class="footer__links">
+                    <li><a href="CONTRIBUTING.md" class="footer__link">How to Contribute</a></li>
+                    <li><a href="https://github.com/BrandeisPatrick/awesome-react-game-halloween" class="footer__link" target="_blank">GitHub Repository</a></li>
+                    <li><a href="https://github.com/BrandeisPatrick/awesome-react-game-halloween/issues" class="footer__link" target="_blank">Submit a Game</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Social</h3>
+
+                <ul class="footer__social">
+                    <a href="https://github.com/BrandeisPatrick/awesome-react-game-halloween" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <span class="footer__copy">
+            &#169; 2025 Awesome React Halloween Games. CC0 License.
+        </span>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <!--=============== GAMES DATA JS ===============-->
+    <script src="assets/js/games.js"></script>
+</body>
+</html>

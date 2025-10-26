@@ -1,0 +1,86 @@
+/*=============== CUSTOM GAME CARD STYLES ===============*/
+
+/* Extend the trick cards for game showcase */
+.trick__description {
+    font-size: var(--small-font-size);
+    color: var(--text-color);
+    margin: 0.5rem 0 1rem;
+    min-height: 60px;
+    text-align: center;
+}
+
+.trick__buttons {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+.trick__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1.5rem;
+    min-height: 400px;
+}
+
+.trick__button {
+    padding: 0.75rem 1.5rem;
+    font-size: var(--small-font-size);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: 0.3s;
+}
+
+.trick__button i {
+    font-size: 1.2rem;
+}
+
+.trick__button:hover {
+    transform: translateY(-0.25rem);
+}
+
+/* Game card hover effects */
+.trick__content:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 12px 32px hsla(0, 0%, 0%, 0.3);
+}
+
+/* Footer adjustments */
+.footer {
+    background: linear-gradient(180deg, hsl(var(--hue), 14%, 8%) 0%, hsl(var(--hue), 14%, 4%) 100%);
+}
+
+.footer__logo-img {
+    width: 32px;
+}
+
+.footer__links {
+    list-style: none;
+}
+
+.footer__social {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 767px) {
+    .trick__description {
+        min-height: 80px;
+        font-size: 0.813rem;
+    }
+
+    .trick__buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .trick__button {
+        width: 100%;
+        justify-content: center;
+    }
+}
