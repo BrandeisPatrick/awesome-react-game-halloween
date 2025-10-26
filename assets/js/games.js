@@ -6,7 +6,7 @@ const horrorGames = [
         demo: "https://skullhotel.vercel.app",
         stars: 16,
         description: "R3F horror survival game. Play as housekeeper cleaning 8 hotel rooms with deadly entities hiding in random spots.",
-        image: "assets/img/game-placeholder.png"
+        image: "assets/img/trick-treat1-img.png"
     },
     {
         name: "Thistle",
@@ -14,7 +14,7 @@ const horrorGames = [
         demo: "https://georgewaraw.github.io/thistle/",
         stars: "Low",
         description: "3D horror FPS with old-school PSX/Saturn aesthetic. Chase sequences through abandoned city.",
-        image: "assets/img/game-placeholder.png"
+        image: "assets/img/trick-treat2-img.png"
     },
     {
         name: "2D Zombie Survival IO",
@@ -22,7 +22,7 @@ const horrorGames = [
         demo: null,
         stars: 7,
         description: "Multiplayer zombie survival IO game with cooperative gameplay",
-        image: "assets/img/game-placeholder.png"
+        image: "assets/img/trick-treat3-img.png"
     }
 ];
 
@@ -33,7 +33,7 @@ const escapeGames = [
         demo: "https://react-roguelike-demo.netlify.app",
         stars: 29,
         description: "Dungeon crawler with darkness mechanics. Explore procedurally generated dungeons where much of the map is hidden.",
-        image: "assets/img/game-placeholder.png"
+        image: "assets/img/new1-img.png"
     },
     {
         name: "FeedVid Live",
@@ -41,7 +41,7 @@ const escapeGames = [
         demo: "https://varunramesh.itch.io/feedvid-live",
         stars: 3,
         description: "Horror puzzle game with text-adventure gameplay. Control a livestreamer through typed commands in this React + Three.js game.",
-        image: "assets/img/game-placeholder.png"
+        image: "assets/img/new2-img.png"
     },
     {
         name: "Jack-o-Hangman",
@@ -49,7 +49,7 @@ const escapeGames = [
         demo: "https://kapppa-joe.github.io/jack-o-hangman/",
         stars: 1,
         description: "Halloween-themed word guessing game with custom graphics and jumpscare elements.",
-        image: "assets/img/game-placeholder.png"
+        image: "assets/img/new3-img.png"
     },
     {
         name: "Roguelike Dungeon Crawler",
@@ -57,7 +57,7 @@ const escapeGames = [
         demo: "https://codepen.io/StefanieWang/pen/EXbyrr",
         stars: "-",
         description: "Turn-based dungeon crawler with darkness mechanic. Battle enemies through 4 levels to defeat the final boss.",
-        image: "assets/img/game-placeholder.png"
+        image: "assets/img/new4-img.png"
     },
     {
         name: "React Online Escape Game",
@@ -65,7 +65,7 @@ const escapeGames = [
         demo: null,
         stars: "-",
         description: "Online escape game for ESD Bordeaux",
-        image: "assets/img/game-placeholder.png"
+        image: "assets/img/new5-img.png"
     },
     {
         name: "Escape Room",
@@ -73,7 +73,7 @@ const escapeGames = [
         demo: null,
         stars: "-",
         description: "Horror-themed puzzle game for Firefox",
-        image: "assets/img/game-placeholder.png"
+        image: "assets/img/new6-img.png"
     },
     {
         name: "Escape Game React",
@@ -81,7 +81,7 @@ const escapeGames = [
         demo: "https://www.sjapaget.online",
         stars: "-",
         description: "Practice project for React and Tailwind",
-        image: "assets/img/game-placeholder.png"
+        image: "assets/img/trick-treat4-img.png"
     }
 ];
 
@@ -92,7 +92,7 @@ const halloweenApps = [
         demo: null,
         stars: "-",
         description: "Horror movie app for browsing films. Features trending, upcoming, and top-rated horror movies",
-        image: "assets/img/game-placeholder.png"
+        image: "assets/img/trick-treat5-img.png"
     }
 ];
 
